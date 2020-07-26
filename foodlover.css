@@ -1,0 +1,188 @@
+*{
+  padding : 0;
+  margin : 0;
+}
+body{
+  background-color: #3d3d3c;
+  font-family: Copperplate Gothic Bold;
+}
+
+.navbar-brand img{
+  width : 100px;
+}
+.navbar-brand{
+  position : absolute;
+  left : 50%;
+  transform : translateX(-50%);
+}
+
+.navbar{
+  padding: 1em 0 !important;
+  color : black;
+  font-family: impact;
+  font-size: 20px;
+}
+.navbar-default {
+  background-color:black;
+  background-image: none;
+  background-repeat: no-repeat;
+ }
+.navbar-nav > li{
+  padding-left:50px;
+  padding-right:30px;
+}
+
+.navbar-toggler{
+  border: none !important;
+  outline: none !important;
+}
+
+
+/*-----banner*/
+#banner1{
+  background-color: black;
+  color : white;
+  padding-top: 3%;
+  height : auto;
+  font-family: Copperplate Gothic Bold;
+}
+
+
+#promo-title{
+  margin :60px;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+#para{
+    margin : 20px 80px 0 80px;
+    font-size : 15px;
+    font-weight : 600;
+}
+
+.button {
+  background-color: orange;
+  border: none;
+  color: black;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 60px 80px;
+  cursor: pointer;
+}
+
+.button3{
+  border-radius: 8px;
+  margin-right : 80px;
+}
+
+#banner2{
+  color : white;
+  padding-top: 3%;
+  height : auto;
+  font-family: Copperplate Gothic Bold;
+}
+.enjoy{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("trans1.jpg");
+  height: 100vh;
+  background-size: 100% 80%;
+  background-position :center top;
+  background-repeat: no-repeat;
+}
+.enjoy p{
+  text-align : center;
+  font-size : 40px;
+  font-weight : 600;
+  color : white;
+}
+
+.box{
+  border : 5px solid orange;
+}
+
+#banner3{
+  color : white;
+  padding-top: 15%;
+  height : auto;
+  font-family: Copperplate Gothic Bold;
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("burst.jpg");
+  height: 100vh;
+  background-size: 100% 80%;
+  background-position : center;
+  background-repeat: no-repeat;
+}
+
+#hello{
+  border: 5px solid orange;
+
+}
+
+#promo-title1{
+  margin :0 100px 0 100px;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+#para1{
+    margin : 20px 80px 0 80px;
+    font-size : 30px;
+    font-weight : 600;
+}
+
+#banner4{
+  color : orange;
+  padding-top: 3%;
+  font-size: 30px;
+  font-family: Copperplate Gothic Bold;
+}
+#desc{
+  font-size : 20px;
+  color : white;
+  font-family: impact;
+}
+.lastlogo{
+  background-color:black;
+}
+
+.links > ul{
+list-style-type: none;
+text-align: center;
+margin:50px 50px 0px 100px;
+}
+
+.links > ul > li{
+display: inline-block;
+}
+
+.links > ul > li > a{
+text-decoration : none;
+color: white;
+padding: 40px;
+transition: 0.6s ease;
+}
+
+.links > ul > li > a:hover{
+color: orange;
+}
+
+.icons > ul{
+list-style-type: none;text-align: center;
+}
+
+.icons > ul > li{
+display: inline-block;
+}
+
+.icons > ul > li > a{
+text-decoration : none;
+color: white;
+padding: 15px;
+font-size:2em;
+transition: 0.6s ease;
+}
+
+.icons > ul > li > a:hover{
+color: orange;
+}
